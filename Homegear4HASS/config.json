@@ -1,8 +1,9 @@
 {
   "name": "Homegear4HASS",
-  "version": "0.2e",
-  "slug": "rpi-homegear",
+  "version": "latest",
+  "slug": "homegear",
   "image":"homegear/homegear",
+  "url": "https://hub.docker.com/r/homegear/homegear/",
   "description": "Homegear as a Hassio add-on",
   "arch": ["armv7"],
   "startup": "before",
