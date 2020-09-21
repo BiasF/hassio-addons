@@ -2,3 +2,4 @@
  
  # Inspired by https://github.com/Homegear/Homegear-Docker/blob/master/rpi-stable/start.sh
  
+tail -f /var/log/homegear/homegear.log
