@@ -5,12 +5,13 @@
   "description": "Homegear as a Hassio add-on",
   "startup": "before",
   "boot": "auto",
+  "auto_uart":"true",
   "gpio": true,
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"
   ],
-  "map": ["config:rw", "share:rw"],
+  "map": ["config:rw", "share:rw", "ssl"],
   "ports": {
     "2001/tcp": 2001,
     "2002/tcp": 2002,
@@ -21,9 +22,5 @@
   "options": {
   },
   "schema": {
-  },
-  "devices": [
-    "/dev/ttyAMA0:/dev/ttyAMA0:rwm",
-    "/dev/ttyACM0:/dev/ttyACM0:rwm"
-  ]
+  }
 }
