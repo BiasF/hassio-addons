@@ -1,6 +1,6 @@
 {
   "name": "Homegear4HASS",
-  "version": "0.2b",
+  "version": "0.2c",
   "slug": "rpi-homegear",
   "description": "Homegear as a Hassio add-on",
   "arch": ["armv7"],
